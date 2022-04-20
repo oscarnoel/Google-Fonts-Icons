@@ -1,0 +1,105 @@
+/*
+  Google Fonts
+
+  Gracias a este servicio podemos utilizar diferentes fuentes descargandolos desde
+  un servidor remoto, la mas famosa es Google Fonts, y que tiene la ventaja de que puedes utilizarlas
+  sin ningun tipo de licencia.
+
+  Google Icons
+
+  Al igaul que las fuentes Google tiene un apartado de Icons totalmente gratuitos. Los podemos agregar
+  ya sea descargandolos y agregandolos, o agregarlos de forma remota.
+
+   Material Icons https://fonts.googleapis.com/css?family=Material+Icons 
+
+   Material Icons Outlined https://fonts.googleapis.com/css?family=Material+Icons
+   +Outlined 
+   Material Icons Two Tone https://fonts.googleapis.com/css?family=Material+Icons
+   +Two+Tone 
+   Material Icons Rounded https://fonts.googleapis.com/css?family=Material+Icons
+   +Round
+  Material Icons Sharp https://fonts.googleapis.com/css?family=Material+Icons
+  +Sharp
+
+  Eso sonlos distintos servidores que existen con tdos los iconos que Google ofrece para su
+  utilizacion
+  
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 1rem;
+    background-color: lightcyan;
+  }
+  
+  .caja {
+    margin: 2rem auto;
+  
+    width: 100%;
+    height: auto;
+    max-width: 120rem;
+    min-width: 8rem;
+  
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 2.5rem;
+  
+    border-radius: 5px;
+    box-shadow: 10px 10px rgb(0 0 0 / 0.5);
+    background-color: hsl(0, 0%, 65%);
+  
+  }
+  .caja .texto {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  
+  .caja header {
+    width: 100%;
+    max-width: 28.9rem;
+    min-width: 10rem;
+    
+  
+    padding: 1rem;
+  
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 50%);
+  }
+
+#font-tourney .texto,
+#font-tourney span {
+  font-family: 'Tourney', cursive;
+}
+
+#font-tourney header {
+  background-color: hsl(60, 60%, 50%);
+}
+
+
+#font-oswald .texto,
+#font-oswald span {
+  font-family: 'Oswald', sans-serif;
+}
+
+#font-oswald header {
+  background-color: hsl(242, 86%, 64%);
+}
+
+#iconos header {
+  background-color: hsl(162, 60%, 50%);
+}
+
+#iconos span {
+  
+  color: red; /*Para cambiar el color es con color*/
+  font-size: 20rem; /*Para subir el tamaño de la imagen se usa font-size*/
+
+}
